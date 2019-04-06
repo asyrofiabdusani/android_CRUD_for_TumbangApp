@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    tools:context="com.example.asyrofiabdusani.tumbangapp.Stimulasi.Bahasa.Bahasa12">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stimulasi_pic"
+        android:src="@drawable/laporan"
+        android:layout_marginRight="7dp"
+        android:layout_gravity="center_vertical"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="17dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/main2_text"
+            android:text="Stimulasi Lanjutan"
+            style="@style/mediumStyle"
+            android:gravity="center_horizontal"
+            android:background="@color/unguMuda"
+            android:textStyle="bold"
+            android:layout_marginBottom="7dp"
+            android:paddingBottom="3dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/main_text"
+            android:text="Merangkak"
+            style="@style/mediumStyle"
+            android:background="@color/kuningMuda"
+            android:textStyle="bold"
+            android:paddingBottom="3dp"
+            android:layout_marginBottom="7dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sub_text"
+            android:text="buat mainan yang menyerupai anak anada agar mudah untuk mengenali
+sebuah anda tidak akan mudah untuk belajar mengenali sebuah alasan yang menjadikan sebuah alasanasalansadadkjadkadhakfafkafajfakfajfahfajf"
+            style="@style/smallStyle"/>
+    </LinearLayout>
+
+</LinearLayout>

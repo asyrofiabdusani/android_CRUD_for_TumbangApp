@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asyrofiabdusani.tumbangapp">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Pertumbuhan.PertumbuhanActivity"
+            android:label="@string/pertumbuhan" />
+        <activity
+            android:name=".Perkembangan.KpspActivity"
+            android:label="@string/perkembangan" />
+        <activity
+            android:name=".Stimulasi.StimulasiActivity"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Laporan.LaporanPertumbuhanList"
+            android:label="@string/laporan" />
+        <activity
+            android:name=".Data.DetailDataActivity"
+            android:label="@string/data_anak" />
+        <activity
+            android:name=".Data.DataActivity"
+            android:label="@string/data_anak" />
+        <activity
+            android:name=".Data.EditData"
+            android:label="@string/data_anak" />
+        <activity
+            android:name=".Search.SearchActivity"
+            android:label="@string/data_anak" />
+        <activity
+            android:name=".Stimulasi.GerakHalusActivity"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Stimulasi.GerakKasarActivity"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Stimulasi.SosialisasiActivity"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Stimulasi.BahasaActivity"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Stimulasi.Bahasa.Bahasa9"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Stimulasi.Bahasa.Bahasa12"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Stimulasi.Bahasa.Bahasa15"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Stimulasi.Bahasa.Bahasa18"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Stimulasi.Bahasa.Bahasa24"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Stimulasi.Bahasa.Bahasa36"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Stimulasi.Bahasa.Bahasa48"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Stimulasi.Bahasa.Bahasa60"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Stimulasi.Halus.Halus9"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Stimulasi.Halus.Halus12"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Stimulasi.Halus.Halus15"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Stimulasi.Halus.Halus18"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Stimulasi.Halus.Halus24"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Stimulasi.Halus.Halus36"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Stimulasi.Halus.Halus48"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Stimulasi.Halus.Halus60"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Stimulasi.Kasar.Kasar9"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Stimulasi.Kasar.Kasar12"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Stimulasi.Kasar.Kasar15"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Stimulasi.Kasar.Kasar18"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Stimulasi.Kasar.Kasar24"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Stimulasi.Kasar.Kasar36"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Stimulasi.Kasar.Kasar48"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Stimulasi.Kasar.Kasar60"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Stimulasi.Sosialisasi.Sosialisasi9"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Stimulasi.Sosialisasi.Sosialisasi12"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Stimulasi.Sosialisasi.Sosialisasi15"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Stimulasi.Sosialisasi.Sosialisasi18"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Stimulasi.Sosialisasi.Sosialisasi24"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Stimulasi.Sosialisasi.Sosialisasi36"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Stimulasi.Sosialisasi.Sosialisasi48"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Stimulasi.Sosialisasi.Sosialisasi60"
+            android:label="@string/stimulasi" />
+        <activity
+            android:name=".Search.SearchPertumbuhanActivity"
+            android:label="@string/pertumbuhan" />
+        <activity
+            android:name=".Pertumbuhan.HitungPertumbuhan"
+            android:label="@string/pertumbuhan" />
+        <activity
+            android:name=".Perkembangan.PerkembanganActivity"
+            android:label="@string/perkembangan" />
+        <activity
+            android:name=".Search.SearchPerkembanganActivity"
+            android:label="@string/perkembangan" />
+        <activity
+            android:name=".Perkembangan.MainKpspActivity"
+            android:label="@string/perkembangan" />
+        <activity
+            android:name=".Perkembangan.Kpsp2Activity"
+            android:label="@string/perkembangan" />
+        <activity
+            android:name=".Perkembangan.DiagnosisKpspActivity"
+            android:label="@string/perkembangan" />
+        <activity
+            android:name=".Perkembangan.Kpsp3Activity"
+            android:label="@string/perkembangan" />
+        <activity
+            android:name=".Perkembangan.Kpsp4Activity"
+            android:label="@string/perkembangan" />
+        <activity
+            android:name=".Perkembangan.Kpsp5Activity"
+            android:label="@string/perkembangan" />
+        <activity
+            android:name=".Perkembangan.Kpsp6Activity"
+            android:label="@string/perkembangan" />
+        <activity
+            android:name=".Perkembangan.Kpsp7Activity"
+            android:label="@string/perkembangan" />
+        <activity
+            android:name=".Perkembangan.Kpsp8Activity"
+            android:label="@string/perkembangan" />
+        <activity
+            android:name=".Perkembangan.Kpsp9Activity"
+            android:label="@string/perkembangan" />
+        <activity
+            android:name=".Perkembangan.Kpsp10Activity"
+            android:label="@string/perkembangan" />
+        <activity
+            android:name=".Perkembangan.PrepareActivity"
+            android:label="@string/perkembangan" />
+        <activity
+            android:name=".Search.SearchLaporanActivity"
+            android:label="@string/laporan" />
+        <activity
+            android:name=".Laporan.LaporanPertumbuhan"
+            android:label="@string/laporan" />
+        <activity
+            android:name=".Laporan.LaporanPerkembangan"
+            android:label="@string/laporan" />
+        <activity
+            android:name=".Search.SearchLaporanPerkembangan"
+            android:label="@string/laporan" />
+        <activity
+            android:name=".Laporan.LaporanPerkembanganListAnak"
+            android:label="@string/laporan" />
+        <activity
+            android:name=".Laporan.MenuLaporanActivity"
+            android:label="@string/laporan" />
+        <activity
+            android:name=".Laporan.LaporanAnakActivity"
+            android:label="@string/laporan" />
+        <activity android:name=".Laporan.LaporanAnakKembang" />
+        <activity android:name=".Data.KeteranganActivity"></activity>
+    </application>
+
+</manifest>

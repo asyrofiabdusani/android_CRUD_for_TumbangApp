@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.asyrofiabdusani.tumbangapp.Pertumbuhan.PertumbuhanActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="17dp"
+        android:layout_marginLeft="7dp">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:id="@+id/search"
+            android:hint="Search Nama"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/data_list"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="35dp"></ListView>
+</RelativeLayout>

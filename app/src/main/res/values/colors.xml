@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pink">#FF4081</color>
+    <color name="merahMuda">#e50707</color>
+    <color name="merahTua">#a10606</color>
+    <color name="pinkMuda">#f52884</color>
+    <color name="pinkTua">#c81b69</color>
+    <color name="unguMuda">#f901fc</color>
+    <color name="unguTua">#8d068f</color>
+    <color name="biruMuda">#2400ff</color>
+    <color name="biru">#1565C0</color>
+    <color name="biruTua">#120081</color>
+    <color name="cyanMuda">#00fde2</color>
+    <color name="cyanTua">#048a7c</color>
+    <color name="hijauMuda">#19ff08</color>
+    <color name="hijauTua">#24b419</color>
+    <color name="hijau">#139b30</color>
+    <color name="backgroundColor">#ECEFF1</color>
+    <color name="background">#d8d8d8</color>
+    <color name="kuningMuda">#e6f408</color>
+    <color name="kuningTua">#bbbd02</color>
+    <color name="merah">#4f0205</color>
+    <color name="buttoncolor">#607D8B</color>
+    <color name="textColor">#212121</color>
+    <color name="text">#525252</color>
+    <color name="putih">#ffffff</color>
+    <color name="hitam">#000000</color>
+    <color name="abu_abu">#f5f5f5</color>
+</resources>

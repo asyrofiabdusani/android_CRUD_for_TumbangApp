@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asyrofiabdusani.tumbangapp.Data.DataActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="17dp"
+        android:layout_marginLeft="7dp">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:id="@+id/search"
+            android:hint="Search Nama"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+        </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/data_list"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="35dp"></ListView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:id="@+id/tambah_data"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="7dp">
+        <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/tambah"
+                android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tambah"
+            android:layout_gravity="center"
+            android:textAllCaps="true"
+            android:textColor="@color/hitam"
+            android:fontFamily="serif"/>
+    </LinearLayout>
+</RelativeLayout>

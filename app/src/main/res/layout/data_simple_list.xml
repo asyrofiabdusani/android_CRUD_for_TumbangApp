@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/pic"
+        android:src="@drawable/anak"
+        android:layout_gravity="center_vertical"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/marginStyle"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nama"
+            android:text="udi"
+            style="@style/mediumStyle"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ibu"
+            android:text="suminah"
+            style="@style/smallStyle"
+            android:layout_marginTop="3dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lahir"
+            android:text="12-03-2019"
+            style="@style/smallStyle"
+            android:layout_marginTop="3dp"/>
+    </LinearLayout>
+
+</LinearLayout>

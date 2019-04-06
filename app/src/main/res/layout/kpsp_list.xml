@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/marginStyle"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/list_stimulasi"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        style="@style/mediumStyle"
+        android:id="@+id/next"
+        android:textStyle="bold"
+        android:textColor="@color/putih"
+        android:background="@color/hijauTua"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="12dp"/>
+</RelativeLayout>

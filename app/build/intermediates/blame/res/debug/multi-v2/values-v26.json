@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Android\\Project\\TumbangApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Asyrofi Abdusani\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\c0d163b534520e1c901cf7e63a48e6e9\\res\\values-v26\\values-v26.xml",
+                    "from": {
+                        "startLines": "2,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,294",
+                        "endLines": "5,6",
+                        "endColumns": "12,92",
+                        "endOffsets": "289,382"
+                    }
+                }
+            ]
+        }
+    ]
+}

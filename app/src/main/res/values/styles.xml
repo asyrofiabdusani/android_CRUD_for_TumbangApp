@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/pinkMuda</item>
+        <item name="colorPrimaryDark">@color/pinkTua</item>
+        <item name="colorAccent">@color/biruTua</item>
+    </style>
+    <style name="largeStyle" parent="@android:style/TextAppearance.Large">
+        <item name="android:fontFamily">serif</item>
+    </style>
+    <style name="mediumStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:fontFamily">serif</item>
+    </style>
+    <style name="smallStyle" parent="@android:style/TextAppearance.Small">
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textColor">@color/hitam</item>
+    </style>
+    <style name="paddingStyle">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+    </style>
+    <style name="marginStyle">
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+    </style>
+    <style name="editText" parent="mediumStyle">
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="circleView" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/putih</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">serif-monospace</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+</resources>
